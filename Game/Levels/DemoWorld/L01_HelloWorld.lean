@@ -19,7 +19,7 @@ Statement (h : x = 2) (g: y = 4) : x + x = y := by
   Hint "You should use `{g}` now."
   rw [g]
 
-Conclusion "This last message appears if the level is solved."
+Conclusion "Well done. We are very proud of you!"
 
 /- Use these commands to add items to the game's inventory. -/
 

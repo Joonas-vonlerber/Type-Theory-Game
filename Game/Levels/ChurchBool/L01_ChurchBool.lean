@@ -16,6 +16,10 @@ def CBool.and (a b: CBool): CBool := a b CFalse
 def CBool.or (a b: CBool): CBool := a CTrue b
 
 
+/-- The exercise statement in natural language using latex: $\iff$. -/
+Statement (n : Nat) : 0 + n = n := by
+  sorry
+
 
 
 /- Use these commands to add items to the game's inventory. -/

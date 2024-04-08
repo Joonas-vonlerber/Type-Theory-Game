@@ -1,5 +1,7 @@
 import Game.Levels.DemoWorld
 import Game.Levels.MyWorld
+import Game.Levels.ChurchNat
+import Game.Levels.ChurchBool
 -- Here's what we'll put on the title screen
 Title "Hello World Game"
 Introduction
