@@ -5,7 +5,6 @@ def Cn := (T : Type u) → (T → T) → T → T
 -- lol :D
 -- def zero : Cn := fun _f x => x
 def zero : Cn := fun _T _f x => x
-def succ : Cn → Cn := (T : Type u) (n : Cn) → fun (f : T → T) (x :)
 
 def Cn.from_nat (n : Nat) : Cn := match n with
   | 0 => fun _T _f x => x

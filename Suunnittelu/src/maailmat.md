@@ -24,16 +24,22 @@
 
 ## Nat 1
 
-- \all T. (T -> T) -> T -> T
-  - zero
-  - succ
-  - is_zero
-  - mul
+- `\all T. (T -> T) -> T -> T`
+- zero
+- succ
+- is_zero
+- mul
 
 ## Option
 
-- Church Option
-  - \all
+- mk
+- toBool
+- getD
+- filter
+- bind
+- map
+- toList
+
 - Side-quest Church 4,5,6
 
 ## Product
@@ -48,21 +54,37 @@
 - inl, inr
 -
 
-- Church Nat2
-- Church List
-  - def ChL
-  - append
-  - snoc
-  - nil
-  - sing
-  - cons
-  - length
-  - isempty
-  - head
-  - tail
-  - isEmpty
-  - map
-  - reverse
+## List
+
+- def ChL
+- append
+- snoc
+- nil
+- sing
+- cons
+- length
+- isempty
+- head
+- tail
+- isEmpty
+- map
+- reverse
+
+## Nat 2
+
+More difficult church numeral exercises
+
+- pow
+- pred
+- sub
+
+## Equiv
+
+Proofs about equality of types
+
+- `Coproduct Unit Unit \equiv Nat`
+- `Coproduct Unit Nat \equiv Option Nat`
+
 - Church non-empty-list
 - Isomorphism
 - Induction
