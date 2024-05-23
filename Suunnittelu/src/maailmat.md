@@ -2,7 +2,7 @@
 
 ## Church Unit
 
-- \all T. T -> T
+- $\forall\ T.\ T \to T$
   - Esittelemismaailma, kuinka lean...
   - syntaksi
     - `def`
@@ -14,7 +14,7 @@
 
 ## Boolean
 
-- \all T. T -> T -> T
+- $\forall\ T.\ T \to T \to T$
   - Määritellään Church Bool tyyppi.
     - true ja false
   - Not
@@ -24,7 +24,7 @@
 
 ## Nat 1
 
-- `\all T. (T -> T) -> T -> T`
+- $\forall\ T.\ (T \to T) \to T \to T$
 - zero
 - succ
 - is_zero
